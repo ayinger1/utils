@@ -111,11 +111,6 @@ if (require.main === module)
 	var log = exports.createLogger('Utils', 'info', {useSrc:true});
 	log.info('hi mom!  here is some data: %d', 1.23);
 	log.info(format("hi {mom} and {mom} and so-called '{fred}'", {mom:'your mom', fred:'FredRated'}));
-	
-	var fs = require('fs');
-	var fileData = fs.readFileSync('../manifest.yml', 'utf8');
-	// fs.writeFileSync(writeSource, "Writing to a file synchronously from node.js", {"encoding":'utf8'});
-	log.info('fileData:', fileData);
 }
 
 
