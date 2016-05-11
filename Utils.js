@@ -108,12 +108,12 @@ if (require.main === module)
 	console.log(util.format('hey %s and %s', 'fred', 'ralph'));
 	console.log(util.format('hey %s and %s, here is some json: %j', 'fred', 'ralph', {wow: "yeehaw", inc: true, i: 5}));
 	util.log(util.format('hey %s and %s, with a timestamp!', 'fred', 'ralph'));
-	var log = exports.createLogger('Utils', {level:'info', useSrc:true});
+	var log = exports.createLogger('Utils', 'info', {useSrc:true});
 	log.info('hi mom!  here is some data: %d', 1.23);
 	log.info(format("hi {mom} and {mom} and so-called '{fred}'", {mom:'your mom', fred:'FredRated'}));
 	
 	var fs = require('fs');
-	var fileData = fs.readFileSync('./hanaXSA/axonSPA/manifest.yml', 'utf8');
+	var fileData = fs.readFileSync('../manifest.yml', 'utf8');
 	// fs.writeFileSync(writeSource, "Writing to a file synchronously from node.js", {"encoding":'utf8'});
 	log.info('fileData:', fileData);
 }
