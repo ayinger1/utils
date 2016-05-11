@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "AxonJS utils",
   "main": "Utils.js",
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "bunyan-prettystream": "git+https://github.com/cscott/node-bunyan-prettystream.git",
+    "q": "^1.4.1",
+    "util-extend": "^1.0.3"
+  },
+
   "scripts": {
     "test": "node Utils.js"
   },
