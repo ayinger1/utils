@@ -71,7 +71,7 @@ exports.format = function (str, col) {
 	});
 };
 
-//choose random element from array
+//choose random element from array 
 exports.choose = function choose(ar, rnd)
 {
 	if (!rnd)

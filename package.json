@@ -5,7 +5,7 @@
   "main": "Utils.js",
   "dependencies": {
     "bunyan": "^1.5.1",
-    "bunyan-prettystream": "git+https://github.com/cscott/node-bunyan-prettystream.git",
+    "bunyan-prettystream": "git+https://github.com/cscott/node-bunyan-prettystream.git", 
     "q": "^1.4.1",
     "util-extend": "^1.0.3"
   },
