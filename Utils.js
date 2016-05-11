@@ -34,7 +34,7 @@ exports.printDate = function(d)
 };
 
 
-exports.createLogger = function createLogger(loggername+':test!', level, options)
+exports.createLogger = function createLogger(loggername, level, options)
 {
 	if (level === undefined)
 		level = 'info';
